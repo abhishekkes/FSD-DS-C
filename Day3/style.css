@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  background-color: black;
+  gap: 10px 10px;
+  border: 20px;
+}
+
+.grid-container > div {
+  background-color: cadetblue;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.fitems1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  align-content: center;
+}
+.fitems2 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.fitems9 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
