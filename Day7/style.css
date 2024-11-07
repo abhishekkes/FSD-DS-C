@@ -1,0 +1,22 @@
+#top {
+  background-color: black;
+  color: aliceblue;
+  border: 10px solid greenyellow;
+}
+h1 {
+  background-color: greenyellow;
+  color: black;
+  border: 3px groove green;
+}
+button {
+  border-radius: 10px;
+  background-color: chartreuse;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  color: greenyellow;
+  font-size: 20px;
+}
